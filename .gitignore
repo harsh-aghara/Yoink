@@ -1,6 +1,9 @@
 #data.json
 benchmarks/k6/data.json
 
+#AI MARKDOWN files
+GEMINI.md
+
 # Logs
 logs
 *.log
