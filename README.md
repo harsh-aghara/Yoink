@@ -138,7 +138,7 @@ yoink/
 ### 1. Clone & Configure
 
 ```bash
-git clone https://github.com/Retr01-sudo/Yoink.git
+git clone https://github.com/harsh-aghara/Yoink.git
 cd Yoink
 cp .env.example .env
 npm install
@@ -295,4 +295,4 @@ Results from representative k6 spike tests (1,000 VUs, 30s ramp-up) across all f
 
 ## 📄 License
 
-MIT © Retr01-sudo
+MIT © harsh-aghara

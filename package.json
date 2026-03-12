@@ -2,13 +2,13 @@
   "name": "yoink",
   "version": "1.0.0",
   "description": "Demonstrating and solving race conditions in e-commerce inventory systems. 50 users, 1 item—watch it break, then fix it with Redis Lua atomic operations.",
-  "homepage": "https://github.com/Retr01-sudo/Yoink#readme",
+  "homepage": "https://github.com/harsh-aghara/Yoink#readme",
   "bugs": {
-    "url": "https://github.com/Retr01-sudo/Yoink/issues"
+    "url": "https://github.com/harsh-aghara/Yoink/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Retr01-sudo/Yoink.git"
+    "url": "git+https://github.com/harsh-aghara/Yoink.git"
   },
   "license": "ISC",
   "author": "",
