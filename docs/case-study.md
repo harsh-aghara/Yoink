@@ -80,7 +80,7 @@ Those failures aren't bugs — they're expected "out of stock" rejections as the
 
 <img width="1858" height="904" alt="Grafana: error breakdown — 404 out-of-stock errors replaced 500 connection errors, confirming correct behavior" src="https://github.com/user-attachments/assets/91f7254f-f189-4c63-9701-c46faad48bc9" />
 
-The real cost shows up in latency. When stock was still available and 1,000 users were fighting for a DB connection to run that atomic update, contention was extreme. The p95 latency peaked above **476ms** — and ironically, it only dropped *because* the stock ran out and the server stopped hitting the database entirely for out-of-stock requests:
+The real cost shows up in latency. When stock was still available and 1,000 users were fighting for a DB connection to run that atomic update, contention was extreme. The p95 latency peaked above **1.1s** — and ironically, it only dropped *because* the stock ran out and the server stopped hitting the database entirely for out-of-stock requests:
 
 <img width="1851" height="911" alt="Grafana: p95 latency in V2 — latency drops sharply once stock is exhausted and DB writes stop" src="https://github.com/user-attachments/assets/2ff1ab24-444a-4b1c-b53c-924011ac5829" />
 
